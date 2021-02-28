@@ -27,6 +27,12 @@ rocketpay-*.tar
 # this depending on your deployment strategy.
 /priv/static/
 
+# Visual Studio Code
+**/.vscode/
+**/.vs
+/.vs
+.vs
+
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
