@@ -1,5 +1,5 @@
 defmodule RocketpayWeb.UsersViewTest do
-    use RocketpayWeb.ConnCase
+    use RocketpayWeb.ConnCase, async: true
   
     import Phoenix.View
   
@@ -27,7 +27,7 @@ defmodule RocketpayWeb.UsersViewTest do
                 balance: Decimal.new("0.00"),
                 id: account_id
             },
-          id: user.id,
+          id: user_id,
           name: "teste",
           nickname: "teste",
         }
